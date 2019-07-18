@@ -1,0 +1,9 @@
+spring:
+  data:
+    elasticsearch:
+      # 配置IP及端口号
+      cluster-nodes: 127.0.0.1:9300
+      # 配置集群名，默认为elasticsearch，如果手动更改过，这里一定要指定
+      cluster-name: docker-cluster
+#      repositories:
+#        enabled: true
